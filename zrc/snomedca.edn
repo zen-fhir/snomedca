@@ -1,0 +1,17 @@
+{ns snomedca,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc
+  "Includes all concepts from SNOMEDCT CA edition snapshot. Both active and inactive concepts included, but is-a relationships only stored for active concepts",
+  :zen.fhir/version "0.6.0",
+  :fhir/code-systems
+  #{{:fhir/url "http://snomed.info/sct", :zen.fhir/content :bundled}},
+  :uri "http://snomed.info/sct",
+  :version "20220930",
+  :ftr
+  {:module "snomedca",
+   :source-url "https://storage.googleapis.com",
+   :ftr-path "ftr",
+   :source-type :cloud-storage,
+   :tag "prod"}}}
