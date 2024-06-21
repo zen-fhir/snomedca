@@ -8,7 +8,7 @@
   :fhir/code-systems
   #{{:fhir/url "http://snomed.info/sct", :zen.fhir/content :bundled}},
   :uri "http://snomed.info/sct",
-  :version "20220930",
+  :version "20240531",
   :ftr
   {:module "snomedca",
    :source-url "https://storage.googleapis.com",
